@@ -1,11 +1,9 @@
 import pandas as pd
 import streamlit as st
-import matplotlib.pyplot as plt
 from xgboost import XGBClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, precision_score, recall_score, classification_report, roc_auc_score
-from sklearn.metrics import plot_confusion_matrix
-from xgboost import plot_tree
+
 
 st.title("Refinance Classification Model")
 
